@@ -1,16 +1,90 @@
-# React + Vite
+Pizza Palace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack MERN Pizza Ordering Application built using React, Node.js, Express.js, and MongoDB. The application allows users to register, log in, browse pizzas, add items to the cart, place orders, and view their order history.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+User Features
 
-## React Compiler
+- User Registration
+- User Login & Logout
+- Browse Available Pizzas
+- Add Pizzas to Cart
+- Increase/Decrease Quantity
+- Place Orders
+- View Order History
+- Responsive User Interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Admin Features
 
-## Expanding the ESLint configuration
+- Add New Pizzas
+- Store Pizza Details in MongoDB
+- Manage Pizza Menu Dynamically
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Technologies Used
+
+Frontend
+
+- React.js
+- React Router DOM
+- Axios
+- React Toastify
+- CSS
+
+Backend
+
+- Node.js
+- Express.js
+- JWT Authentication
+- bcryptjs
+
+Database
+
+- MongoDB Atlas
+  
+
+📂 Project Structure
+
+blog-project
+│
+├── frontend
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── services
+│   │   └── App.jsx
+│   └── package.json
+│
+├── backend
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
+
+
+
+
+
+
+📸 Screens
+
+- Home Page
+- Login Page
+- Register Page
+- Cart Page
+- Orders Page
+- Add Pizza Page
+
+🔐 Authentication
+
+The application uses JWT (JSON Web Tokens) for secure user authentication and authorization.
+
+Live link :
